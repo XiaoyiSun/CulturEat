@@ -23,7 +23,7 @@ export default class MainScreen extends Component {
           <Header />
           <StorySection />
           <HotDealSection />
-          <KitchenList navFunc={() => navigate('Detail')} />
+          <KitchenList navigation={this.props.navigation} />
         </ScrollView>
         <View style={styles.filterBtn}>
           <Text style={{fontSize: 18, color: 'white'}}>Filters</Text>

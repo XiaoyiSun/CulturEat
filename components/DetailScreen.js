@@ -31,7 +31,7 @@ export default class DetailScreen extends Component {
           <Card style={{width: '100%'}}>
             <Image
               style={{height: 235, width: '100%'}}
-              source={require('../img/wandouhuang.jpg')}
+              source={this.props.navigation.state.params.imageSource}
             />
             <View style={{height: 120, width: '100%'}}>
               <Text style={{marginTop: 14, marginLeft: 16}}>NAME OF THE DISH</Text>

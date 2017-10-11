@@ -73,7 +73,7 @@ export default class KitchenList extends Component {
             distance={kitchen.distance}
             dishes={kitchen.dishes}
             rate={kitchen.rate}
-            navFunc={this.props.navFunc}
+            navigation={this.props.navigation}
             isLast={index === KITCHENS.length - 1}
           />)}
         </View>

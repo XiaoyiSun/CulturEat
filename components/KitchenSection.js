@@ -7,7 +7,7 @@ import StarRateWidget from './StarRateWidget';
 
 export default class KitchenSection extends Component {
   render() {
-    const { kitchenTitle, kitchenDecription, reviewsNumber, openStatus, chefImage, distance, dishes, rate, navFunc, isLast } = this.props;
+    const { kitchenTitle, kitchenDecription, reviewsNumber, openStatus, chefImage, distance, dishes, rate, isLast, navigation } = this.props;
     return (
       <View style={(isLast) ? {height: 193, marginBottom: 40} : {height: 193}}>
         <Divider styleName='line' style={{marginTop: 13, marginLeft: 16, marginRight: 16, width: 343}} />
@@ -31,7 +31,7 @@ export default class KitchenSection extends Component {
             key={item.key}
             imgSrc={item.src}
             quantity={item.quantity}
-            navFunc={navFunc}
+            navigation={navigation}
             index={index}
           />)}
         </ScrollView>
