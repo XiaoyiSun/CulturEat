@@ -2,6 +2,8 @@
 
 A react native food sharing app that enriches cultural exchange experience via food for both local home chefs and diners in Atlanta, GA.
 
+<img src="https://user-images.githubusercontent.com/11694908/31426662-17b4f812-ae19-11e7-8785-06d2d41811c7.png" width="212">        <img src="https://user-images.githubusercontent.com/11694908/31426839-ddd5ba2c-ae19-11e7-9cd8-922458581769.png" width="212">        <img src="https://user-images.githubusercontent.com/11694908/31426807-c9452cf0-ae19-11e7-8645-e0b4d2a6918f.png" width="212">        <img src="https://user-images.githubusercontent.com/11694908/31426821-d3c4e4b8-ae19-11e7-83fd-8a08a0c5ca84.png" width="212">
+
 The original goal of this project is to stimulate and promote social cohesion and to learn to build app with `React Native`. This project is a collaboration with a UX designer and is not fully functional. 
 
 I used `Twillio` and `Pusher Javascript Client` for real-time communication via SMS in this prototype. The backend is based on `Express.js`.  The source code of this repository does not support real-time communication functionality for now due to privacy reasons (may add it back in the future).
