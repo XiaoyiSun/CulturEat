@@ -1,5 +1,12 @@
 {
   "expo": {
-    "sdkVersion": "21.0.0"
+    "sdkVersion": "34.0.0",
+    "name": "cultureat",
+    "slug": "cultureat",
+    "version": "0.1.0",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   }
 }

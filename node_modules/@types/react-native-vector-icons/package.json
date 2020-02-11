@@ -1,0 +1,42 @@
+{
+    "name": "@types/react-native-vector-icons",
+    "version": "6.4.5",
+    "description": "TypeScript definitions for react-native-vector-icons",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Kyle Roach",
+            "url": "https://github.com/iRoachie",
+            "githubUsername": "iRoachie"
+        },
+        {
+            "name": "Tim Wang",
+            "url": "https://github.com/timwangdev",
+            "githubUsername": "timwangdev"
+        },
+        {
+            "name": "Robert Ying",
+            "url": "https://github.com/robertying",
+            "githubUsername": "robertying"
+        },
+        {
+            "name": "Jesse Katsumata",
+            "url": "https://github.com/Naturalclar",
+            "githubUsername": "Naturalclar"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react-native-vector-icons"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/react": "*",
+        "@types/react-native": "*"
+    },
+    "typesPublisherContentHash": "279b98a9f5d1f6383eb3b1ef2b44ebb2da3338ac51aa6ee2a2ddbcf14a352a6c",
+    "typeScriptVersion": "2.8"
+}
